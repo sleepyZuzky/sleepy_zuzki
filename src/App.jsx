@@ -8,23 +8,21 @@ function App() {
     <Header/>
 
     <header id='avatar' slot='main-header' className={'avatar_container'}>
-      <section>
-        <wa-avatar
-          style={{'width': '400px', 'height': '400px'}}
-          image='assets/img/zuzki_christmas.webp'
-          label='Zuzki'></wa-avatar>
-      </section>
-    </header>
+      <wa-avatar
+        style={{'width': '400px', 'height': '400px'}}
+        image='assets/img/zuzki_christmas.webp'
+        label='Zuzki'></wa-avatar>
 
-    <main className="wa-body-l" style={{'textAlign': 'center'}}>
-      <section id='about'>
+      <section id='about' className={'about_container'}>
         <p>Soy un desarrollador apasionado por la creación de aplicaciones web innovadoras y funcionales.</p>
         <p>Siempre busco nuevas formas de mejorar mis habilidades y actualmente estoy explorando el emocionante mundo
           del diseño de interfaces para las transmisiones en vivo.</p>
         <p>Mi enfoque actual se centra en combinar creatividad y tecnología para ofrecer soluciones que marquen la
           diferencia.</p>
       </section>
+    </header>
 
+    <main className="wa-body-l" style={{'textAlign': 'center'}}>
       <Projects/>
 
       <section id='socials'>
