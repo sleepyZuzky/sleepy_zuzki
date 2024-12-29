@@ -1,0 +1,15 @@
+.link {
+    font-weight: bold;
+    color: rgb(245 158 11);
+}
+
+.link_container {
+    margin-left: 30px;
+    padding: 5px 10px;
+    text-decoration: none;
+}
+
+.link_container:hover {
+    border-radius: 5px;
+    background-color: rgb(240, 240, 240);
+}
