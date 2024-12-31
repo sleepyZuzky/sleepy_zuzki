@@ -26,13 +26,13 @@ function App() {
       <Projects/>
 
       <section id='socials'>
-        <a href='https://x.com/sleepy_zuzki' id="twitter" className={'social social__twitter'} target='_blank'>
+        <a href='https://x.com/sleepy_zuzki' id="twitter" aria-label='X (Formely Twitter)' className={'social social__twitter'} target='_blank'>
           <wa-icon family='brands' name='x-twitter' style={{'fontSize': '2rem', 'verticalAlign': 'middle'}}></wa-icon>
         </a>
-        <a href='https://youtube.com/@sleepy_zuzki' id="youtube" className={'social social__youtube'} target='_blank'>
+        <a href='https://youtube.com/@sleepy_zuzki' id="youtube" aria-label='Youtube Channel' className={'social social__youtube'} target='_blank'>
           <wa-icon family='brands' name='youtube' style={{'fontSize': '2rem', 'verticalAlign': 'middle'}}></wa-icon>
         </a>
-        <a href='https://twitch.tv/sleepy_zuzki' id="twitch" className={'social social__twitch'} target='_blank'>
+        <a href='https://twitch.tv/sleepy_zuzki' id="twitch" aria-label='Twitch Channel' className={'social social__twitch'} target='_blank'>
           <wa-icon family='brands' name='twitch' style={{'fontSize': '2rem', 'verticalAlign': 'middle'}}></wa-icon>
         </a>
       </section>

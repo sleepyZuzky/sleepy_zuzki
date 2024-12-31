@@ -1,6 +1,6 @@
 .link {
     font-weight: bold;
-    color: rgb(245 158 11);
+    @apply text-amber-600;
 }
 
 .link_container {
