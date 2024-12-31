@@ -4,12 +4,12 @@ import Projects from "./components/projects_component/projects.jsx";
 
 
 function App() {
-  return <wa-page>
+  return <wa-page mobile-breakpoint="1">
     <Header/>
 
     <header id='avatar' slot='main-header' className={'avatar_container'}>
       <wa-avatar
-        style={{'width': '400px', 'height': '400px'}}
+        class='avatar'
         image='assets/img/zuzki_christmas.webp'
         label='Zuzki'></wa-avatar>
 
@@ -26,28 +26,17 @@ function App() {
       <Projects/>
 
       <section id='socials'>
-        <a href='https://x.com/sleepy_zuzki' id="twitter" className={'social social__twitter'}>
+        <a href='https://x.com/sleepy_zuzki' id="twitter" className={'social social__twitter'} target='_blank'>
           <wa-icon family='brands' name='x-twitter' style={{'fontSize': '2rem', 'verticalAlign': 'middle'}}></wa-icon>
         </a>
-        <a href='https://youtube.com/@sleepy_zuzki' id="youtube" className={'social social__youtube'}>
+        <a href='https://youtube.com/@sleepy_zuzki' id="youtube" className={'social social__youtube'} target='_blank'>
           <wa-icon family='brands' name='youtube' style={{'fontSize': '2rem', 'verticalAlign': 'middle'}}></wa-icon>
         </a>
-        <a href='https://twitch.tv/sleepy_zuzki' id="twitch" className={'social social__twitch'}>
+        <a href='https://twitch.tv/sleepy_zuzki' id="twitch" className={'social social__twitch'} target='_blank'>
           <wa-icon family='brands' name='twitch' style={{'fontSize': '2rem', 'verticalAlign': 'middle'}}></wa-icon>
         </a>
       </section>
     </main>
-
-    <footer slot="main-footer">
-      <section id='contact' style={{'maxWidth': '600px', 'margin': 'auto'}}>
-        <form className="input-validation-required">
-          <wa-input name='name' label='Nombre'></wa-input>
-          <wa-input name='email' label='Correo'></wa-input>
-          <wa-input name='message' label='Mensaje'></wa-input>
-          <wa-button type='submit' variant='brand'>Enviar</wa-button>
-        </form>
-      </section>
-    </footer>
   </wa-page>
 }
 
