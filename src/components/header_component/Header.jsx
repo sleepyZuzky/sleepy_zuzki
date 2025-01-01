@@ -13,7 +13,6 @@ export default function Header() {
       <div className="text-sm md:text-lg">
         <Link name={'Sobre mi'} refName={'#avatar'}/>
         <Link name={'Projectos'} refName={'#projects'}/>
-        <Link name={'Contacto'} refName={'#contact'}/>
       </div>
     </section>
   </header>

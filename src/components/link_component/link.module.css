@@ -11,5 +11,9 @@
 
 .link_container:hover {
     border-radius: 5px;
-    background-color: rgb(240, 240, 240);
+    @apply bg-amber-700;
+
+    .link {
+        @apply text-amber-300;
+    }
 }
