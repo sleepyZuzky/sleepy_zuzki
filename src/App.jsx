@@ -1,10 +1,12 @@
 import './App.css'
 import Header from "./components/header_component/Header.jsx";
 import Projects from "./components/projects_component/projects.jsx";
+import { Analytics } from "@vercel/analytics/react"
 
 
 function App() {
   return <wa-page mobile-breakpoint="1">
+    <Analytics/>
     <Header/>
 
     <header id='avatar' slot='main-header' className={'avatar_container'}>

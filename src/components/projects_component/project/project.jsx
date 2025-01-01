@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 export default function Project({techs, source, pageLink, pageRepo}) {
 
   const techsIcons = techs.map(tech =>  <>
-      <wa-tooltip for={tech.key}>{tech.label}</wa-tooltip>
+      <wa-tooltip key={`${tech.key}_tooltip`} for={tech.key}>{tech.label}</wa-tooltip>
       <wa-icon key={tech.key} id={tech.key} family='brands' name={tech.key ?? 'font-awesome'} style={{'fontSize': '2rem', 'verticalAlign': 'middle', 'color': tech.color ?? '#ffffff'}}></wa-icon>
     </>)
 
