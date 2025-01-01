@@ -10,6 +10,7 @@ export default function Projects() {
       ]}
       source='/assets/img/portfolio_page.webp'
       pageRepo='https://github.com/sleepyZuzky/sleepy_zuzki'
+      pageLink='https://www.zuzki.dev'
     />
   </section>
 }
