@@ -12,7 +12,7 @@ export default function Header() {
 
       <div className="text-sm md:text-lg">
         <Link name={'Sobre mi'} refName={'#avatar'}/>
-        <Link name={'Projectos'} refName={'#projects'}/>
+        <Link name={'Proyectos'} refName={'#projects'}/>
       </div>
     </section>
   </header>
