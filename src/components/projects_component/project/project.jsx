@@ -7,7 +7,7 @@ export default function Project({techs, source, pageLink, pageRepo}) {
       <wa-icon key={tech.key} id={tech.key} family='brands' name={tech.key ?? 'font-awesome'} style={{'fontSize': '2rem', 'verticalAlign': 'middle', 'color': tech.color ?? '#ffffff'}}></wa-icon>
     </>)
 
-  return <wa-card with-image with-footer class="card-overview w-1/3">
+  return <wa-card with-image with-footer class="card-overview w-full md:w-2/5 lg:w-1/3">
     <img slot='image' src={source} alt='some project' width='300px' height='200px'/>
     <p>Projecto realizado con</p>
     {techsIcons}
