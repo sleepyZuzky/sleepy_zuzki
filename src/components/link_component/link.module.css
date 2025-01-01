@@ -1,6 +1,6 @@
 .link {
     font-weight: bold;
-    @apply text-amber-600;
+    @apply text-amber-800;
 }
 
 .link_container {
