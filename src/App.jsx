@@ -12,7 +12,7 @@ function App() {
     <header id='avatar' slot='main-header' className={'avatar_container'}>
       <wa-avatar
         class='avatar'
-        image='assets/img/zuzki_christmas.webp'
+        image='https://assets.zuzki.dev/zuzki_christmas.webp'
         label='Zuzki'></wa-avatar>
 
       <section id='about' className={'about_container'}>

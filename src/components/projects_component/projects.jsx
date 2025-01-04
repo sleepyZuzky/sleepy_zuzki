@@ -8,7 +8,7 @@ export default function Projects() {
         {label: 'React', key: 'react', color:'#00d8ff'},
         {label: 'Web Awesome', key:'web-awesome', color:'#f36944'},
       ]}
-      source='/assets/img/portfolio_page.webp'
+      source='https://assets.zuzki.dev/portfolio_page.webp'
       pageRepo='https://github.com/sleepyZuzky/sleepy_zuzki'
       pageLink='https://www.zuzki.dev'
     />
