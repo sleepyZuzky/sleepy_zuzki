@@ -13,6 +13,7 @@ export default function Header() {
       <div className="text-sm md:text-lg">
         <Link name={'Sobre mi'} refName={'#avatar'}/>
         <Link name={'Proyectos'} refName={'#projects'}/>
+        <Link name={'Overlays'} refName={'https://overlays.zuzki.dev'}/>
       </div>
     </section>
   </header>
